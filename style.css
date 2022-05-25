@@ -1,0 +1,62 @@
+body{
+  background-color: #394b41;
+}
+#main{
+  text-align: center;
+  color :#e8edeb;
+  font-size: 60px;
+/*-webkit-text-stroke-width:1 px;
+  -webkit-text-stroke-color: white;*/
+}
+#all{
+  display: grid;
+   justify-content: center;
+}
+
+#pTurn, #pWinner{
+  color: rgba(156, 176, 160);
+  text-align: justify;
+  font-size: 36px;
+}
+
+#turn, #winner{
+width: 200px;
+padding: 5px;
+border: 2px solid gray;
+margin: 0;
+background-color:rgba(156, 176, 160,0.3);
+color: white;
+font-size: 30px;
+border-radius: 7px;
+}
+
+#board{
+  display: grid;
+  background-color:rgba(47, 115, 83,0.2);
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+
+}
+.cell {
+  width: 180px;
+  height: 180px;
+  border:solid #e8edeb 2px ;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 80px;
+}
+#restart{
+  border-radius: 10px;
+  background-color: #e8edeb;
+  color:rgba(40, 43, 42,0.7) ;
+  border: none;
+ padding: 15px 32px;
+ font-size: 36px;
+font-family: 'Indie Flower', cursive;
+
+}
